@@ -1,6 +1,6 @@
 ![](BHP_website.PNG)
 
-This data science project series walks through step by step process of how to build a real estate price prediction website. i first built a model using sklearn and linear regression using banglore home prices dataset from kaggle.com. Second step was to write a python flask server that uses the saved model to serve http requests. Third component was to built website in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. During this project i covered almost all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation, software development covered front and backend etc. Technology and  tools wise this project covers,
+This data science project series walks through step by step process of how to build a real estate price prediction website. i first built a model using sklearn and linear regression using banglore home prices dataset from kaggle.com. Second step was to write a python flask server that uses the saved model to serve http requests. Third component was to built website in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. During this project i covered almost all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation, software development covered front and backend, utilization of AWS services to deploy the model etc. Technology and  tools wise this project covers,
 
 1. Python
 2. Numpy and Pandas for data cleaning
@@ -69,7 +69,7 @@ sudo pip3 install -r /home/ubuntu/BangloreHomePrices/requirements.txt
 python3 /home/ubuntu/BangloreHomePrices/client/server.py
 ```
 Running last command above prompt that server is running on port 5000.
-8. load cloud url in browser (for me it was http://ec2-3-133-88-210.us-east-2.compute.amazonaws.com/) and got fully functional website running in production cloud environment.
+8. load cloud url in browser and got fully functional website running in production cloud environment.
 
 
 
